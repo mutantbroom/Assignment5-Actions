@@ -12,4 +12,4 @@ def circleArea(radius):
 
 def check_circleArea(result):
     result = circleArea(3)
-    assert(result==28.27)
+    assert(result == 28.27)
