@@ -29,3 +29,10 @@ def check_listGet():
 def dateGet(date1, date2):
     dif = date2 - date1
     return abs(dif).days
+
+
+def check_dateGet():
+    date1 = 01022020
+    date2 = 01132020
+    result = dateGet(date1, date2)
+    assert(result == 11)
