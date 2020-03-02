@@ -16,5 +16,5 @@ def check_circleArea(result):
     
 
 def listGet(list1):
-    elements = [ list1[0], list1[-1] ]
+    elements = [list1[0], list1[-1]]
     return elements
