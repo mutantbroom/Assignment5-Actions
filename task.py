@@ -33,7 +33,7 @@ def dateGet(date1, date2):
 
 
 def check_dateGet():
-    date1 = date(01,02,2020)
-    date2 = date(01,13,2020)
+    date1 = [01, 02, 2020]
+    date2 = [01, 13, 2020]
     result = dateGet(date1, date2)
     assert(result == 11)
