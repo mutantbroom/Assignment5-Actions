@@ -24,7 +24,7 @@ def check_listGet():
     list1 = [2, 3, 4, 5]
     result = listGet(list1)
     assert(result == [2, 5])
-    
+
 
 def dateGet(date1, date2):
     dif = date2 - date1
