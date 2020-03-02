@@ -1,5 +1,4 @@
 import math
-import date
 
 
 def firstrun():
@@ -26,8 +25,7 @@ def check_listGet():
     result = listGet(list1)
     assert(result == [2, 5])
     
-    
+
 def dateGet(date1, date2):
     dif = date2 - date1
     return abs(dif).days
-    
